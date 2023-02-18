@@ -8,30 +8,42 @@ Für Windows:
     https://community.download.adacore.com/v1/797dbae8bdb8a3f661dad78dd73d8e40218a68d8?filename=gnat-2021-20210519-x86_64-windows64-bin.exe
 
 Für Linux:
-    apt-get install gnat-gps
-    yay -S gnat-gps
+
+`apt-get install gnat-gps`
+
+`yay -S gnat-gps`
 
 
 ## Beweis
 Sobald GNAT installiert wurde, kann das Programm mit
-    ./prove.sh
+
+`./prove.sh`
+
 bzw.
-    prove.bat
+
+`prove.bat`
+
 bewiesen werden.
 Da der Beweis recht rechenintensiv ist, dauert dieser Schritt u.U. 2-3 Minuten.
 
 
 ## Kompilation
 Sobald GNAT installiert wurde, ist das Programm mit
-    ./build.sh
+
+`./build.sh`
+
 bzw.
-    build.bat
+
+`build.bat`
+
 zu kompilieren.
 
 
 ## Ausführung
 Anschließend wird die ausführbare Datei mit
-    [./]main[.exe] <Eingabestring>
+
+`[./]main[.exe] <Eingabestring>`
+
 ausgeführt.
 Der Eingabestring wird in seine Tokens zerlegt und diese darnach ausgegeben.
 
