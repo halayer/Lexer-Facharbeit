@@ -44,7 +44,7 @@ package body Lexer with SPARK_Mode => On is
                 exit;
             end if;
 
-            -- Falls kein Endzustand per alpha oder ein Fehler vorlag,
+            -- Falls kein Endzustand per alpha und kein Fehler vorlag,
             -- inkrementiere den Zeiger.
             ptr := ptr + 1;
 
